@@ -11,7 +11,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://andreadev14.github.io/advice-generator/](https://andreadev14.github.io/advice-generator/
 
 
 ## My process
