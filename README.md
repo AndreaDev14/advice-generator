@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app solution
 
-- Live Site URL: https://andreadev14.github.io/advice-generator/](https://andreadev14.github.io/advice-generator/)
+- Live Site URL: [https://andreadev14.github.io/advice-generator/](https://andreadev14.github.io/advice-generator/)
 
 ### Screenshot
 
