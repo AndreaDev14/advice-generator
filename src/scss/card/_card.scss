@@ -1,0 +1,69 @@
+@use 'general/variables' as v;
+@use 'general/mixins' as m;
+
+.card {
+    background-color: v.$Dark-Grayish-Blue;
+    max-width: 34rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    position: relative;
+    
+    @include m.tablet { 
+       max-width: 54rem;
+   
+    }
+
+    &__number {
+        color: v.$Neon-Green;
+        letter-spacing: .3rem;
+        padding-bottom: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &__quote {
+        color: v.$Light-Cyan;
+        margin-bottom: 2rem;
+        letter-spacing: .2rem;
+
+        &:hover {
+            color: v.$Neon-Green;
+        }
+        @include m.desktop { 
+            font-size: 2.8rem;
+        }
+    }
+
+    &__divider {
+        margin-bottom: 3rem;
+    }
+
+    &__img {
+        background-color: v.$Neon-Green;
+        border: none;
+        border-radius: 50%;
+        bottom: -2rem;
+        cursor: pointer;
+        display: grid; 
+        left: 50%;
+        padding: 1.5rem;
+        place-content: center;
+        position: absolute;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        transition: .2s ease-in-out;
+       
+        &:hover {
+            background-color: hsl(150, 86%, 30%);
+        }
+    }
+
+    &__dice {
+        transition: transform .7s ease-in-out;
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
+
+   
+}

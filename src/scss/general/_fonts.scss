@@ -1,0 +1,18 @@
+@use 'general/variables' as v;
+
+
+h1 {
+  font-size:   2rem;
+}
+p {
+    margin: 0;
+    font-size: 1.4rem;
+  
+ }
+a {
+    text-decoration: none;
+}
+
+[class$="__heading"] {
+    margin: 2rem 0;
+}

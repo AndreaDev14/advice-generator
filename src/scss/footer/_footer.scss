@@ -1,0 +1,17 @@
+@use 'general/variables' as v;
+
+
+.footer {
+  margin-top: 4rem;
+
+  &__attribution {
+    font-size: 1.2rem;
+    color: v.$Light-Cyan;
+  }
+
+  &__link {
+    color: v.$Neon-Green;
+  }
+  
+ 
+}
