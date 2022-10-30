@@ -19,6 +19,7 @@
 - Mobile-first workflow
 - Sass - gulp
 - JavaScript
+- [Advice Slip API](https://api.adviceslip.com/)
 
 
 
